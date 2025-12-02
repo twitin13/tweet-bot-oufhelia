@@ -13,13 +13,15 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Cari freelance / WFH? Affiliate aja gampang banget! 💸 
+Mau freelance / WFH?
+Join Affiliate aja gampang banget! 💸 
 
-Mulai 4K-an aja udah dapat TOTAL 6.000+ konten siap upload + link 🔥
+Modal 4K-an aja udah dapat TOTAL 6.000+ video siap upload + link 
+shopee🔥 Kamu juga bisa upload konten" tsb di TikTok/ sosmed lainnya!
 
-🛒 Bisa akses kesini yaa lynk.id/swiftory
+🎀 Cek disini lynk.id/swiftory
 
-t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video
+t. cara tips info loker kumpulan bank
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -36,5 +38,6 @@ t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
